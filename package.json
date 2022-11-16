@@ -1,0 +1,23 @@
+{
+  "name": "biztrato-hackathon-2022",
+  "version": "1.0.0",
+  "description": "Development of an interactive webapp based on Qatar2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Adriana Díaz, Maycol Roa, Tomas, Carlos Revetti",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.1"
+  }
+}
