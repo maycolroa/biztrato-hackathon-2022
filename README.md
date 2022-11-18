@@ -138,6 +138,4 @@ https://api-fut.herokuapp.com/
 ```
 * Maycol David Roa 
 * carlos Revetti
-* adriana
-* thomas
 ```
