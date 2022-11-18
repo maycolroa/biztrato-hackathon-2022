@@ -110,7 +110,7 @@ https://api-fut.herokuapp.com/
 
 ## request ##
 ```
-- request para crear eliminar ver actualizar  organizar usuarios y peliculas
+- request para ver la informacion
 ```
 
 ![crear usuario](https://user-images.githubusercontent.com/85509333/201575954-c81d392d-83ea-4d5c-befe-452c3d80e721.png)
