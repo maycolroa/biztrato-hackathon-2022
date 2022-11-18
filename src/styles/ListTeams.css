@@ -1,0 +1,43 @@
+.list {
+    position: absolute;
+    z-index: 1;
+    top: 6.5rem;
+    right: 3.0rem;
+    background-color: hsl(0, 0%, 100%);
+    border: solid hsl(0,0%,25%);
+    border-radius: 0.5rem;
+    width: 10.0rem;
+    padding: 0.5rem;
+    overflow: hidden;
+}
+
+.list__listTeams ul li{
+    width: 100%;
+    list-style: none;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.list__listTeams--button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+
+.list__listTeams--image {
+    width: 3.5rem;
+    border-radius: 0.3rem;
+}
+
+@media (max-width: 750px) {
+    .list {
+        top: 31.8rem;
+        left: 3.0rem;
+    }
+}

@@ -1,0 +1,27 @@
+.game__container {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2.0rem;
+}
+
+.game__container p {
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+
+.game__teamHome,
+.game__teamAway {
+    display: flex;
+    align-items: center;
+}
+.game__teamHome p, 
+.game__teamHome h2 {
+    margin: 0 1.0rem;
+}
+.game__teamHome img,
+.game__teamAway img {
+    width: 8.5rem;
+    border-radius: 0.6rem;
+    margin: 0 1.0rem;
+}

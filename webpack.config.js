@@ -67,7 +67,7 @@ module.exports = {
     new webpack.DefinePlugin({
       "process.env": {
         API: JSON.stringify(process.env.API),
-        VERSION: JSON.stringify(process.env.VERSION),
+        TOKEN: JSON.stringify(process.env.TOKEN),
       },
     }),
   ],

@@ -1,0 +1,27 @@
+.matchs {
+    padding: 0 3.0rem;
+}
+
+.matchs__container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33% ;
+    height: 15.0rem;
+    background-color:hsl(345,39%,43%);
+    border-radius: 2.0rem;
+    font-size: 1.8rem;
+    box-shadow: 0 0 3.8rem -1.3rem black;
+}
+.matchs__today,
+.matchs__tomorrow,
+.matchs__nextWeek {
+    justify-self: center;
+    align-self: center;
+}
+
+.matchs__today--title,
+.matchs__tomorrow--title,
+.matchs__nextWeek--title {
+    margin-bottom: 0.6rem;
+    text-align: center;
+}
+ 
