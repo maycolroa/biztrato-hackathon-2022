@@ -105,7 +105,7 @@ de cambios y permite el desarrollo en conjunto
 
 ![heroku](https://user-images.githubusercontent.com/85509333/202794683-14b8306c-52b4-472e-bb47-a64d35b8fce6.jpg)
 ```
-https://api-fut.herokuapp.com/
+https://hackathon-biztrato-2022.netlify.app/
 ```
 
 ## request ##
