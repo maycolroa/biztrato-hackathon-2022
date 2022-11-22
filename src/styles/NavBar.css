@@ -1,19 +1,18 @@
 .navBar__container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 3.0rem;
+    flex-wrap: wrap;
+    padding: 1.5rem;
 }
 
-.navBar__container--UTC {
-    margin-right: -45px;
-    font-weight: 600;
-    font-size: 1.8rem;
+.navBar__routes {
+    display: flex;
+    justify-content: space-between;
 }
 
-.navBar__container--button {
-    width: 40.0rem;
-    padding: 0 0.5rem;
+.navBar__container--button,
+.navBar__UTC--button {
+    width: 27.78vw;
     height: 4.0rem; 
     font-weight: 600;
     font-size: 1.8rem;
@@ -24,6 +23,22 @@
     background-color: transparent;
     cursor: pointer;
     overflow: hidden;
+    margin: 0.75rem 1.5rem;
+}
+
+.navBar__container--UTC {
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: end;
+}
+
+.navBar__container--UTC p {
+    display: inline-block;
+}
+
+.navBar__UTC--button {
+    width: 20rem;
+    margin-left: 0.5rem;
 }
 
 .navBar__container--button object {
@@ -31,7 +46,7 @@
 }
 
 .navBar__container--button.UTC{
-    width: 20.0rem;
+    max-width: 20.0rem;
 }
 
 .list__UTC {
@@ -56,4 +71,43 @@
     color: hsl(0, 0%, 100%);
     cursor: pointer;
     margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 960px)  {
+    .navBar__container {
+        display: block;
+        padding: 1.5rem 0;
+    }
+
+    .navBar__routes button {
+        width: 41.75vw;
+    }
+
+    .list__UTC {
+        top: 20.98rem;
+        right: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 538px)  {
+    .navBar__routes {
+        display: block;
+    }
+
+    .navBar__UTC--button,
+    .list__UTC {
+        width: 37.20vw;
+    } 
+
+    .navBar__routes button {
+        width: -webkit-fill-available;
+    }
+    
+    .list__UTC {
+        top: 26.58rem;
+    }
+
+    .list__UTC--button {
+        padding-left: 10%;
+    }
 }

@@ -26,25 +26,26 @@ const NavBar = () => {
   return (
     <>
       <div className="navBar__container">
-        <Link to="..">
-          <button className="navBar__container--button">
-            <object data={pencil} type="image/svg+xml"></object>
-            Estadística
+        <div className="navBar__routes">
+          <Link to="..">
+            <button className="navBar__container--button">
+              <object data={pencil} type="image/svg+xml"></object>
+              Estadística
+            </button>
+          </Link>
+          <Link to="/probability">
+            <button className="navBar__container--button">
+              <object data={statsBars} type="image/svg+xml"></object>
+              Probabilidades
+            </button>
+          </Link>
+        </div>
+        <div className="navBar__container--UTC">
+          <p className="navBar__UTC--title">Zona Horaria:</p>
+          <button className="navBar__UTC--button" onClick={handleToggle}>
+            {utcSelect}
           </button>
-        </Link>
-        <Link to="/probability">
-          <button className="navBar__container--button">
-            <object data={statsBars} type="image/svg+xml"></object>
-            Probabilidades
-          </button>
-        </Link>
-        <p className="navBar__container--UTC">Zona Horaria:</p>
-        <button
-          className="navBar__container--button UTC"
-          onClick={handleToggle}
-        >
-          {utcSelect}
-        </button>
+        </div>
         {toggle && (
           <div className="list__UTC">
             <ul>

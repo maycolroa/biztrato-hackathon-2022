@@ -3,3 +3,23 @@
     font-weight: 600;
     font-size: 1.8rem;
 }
+
+.games__category {
+    margin: 3.0rem 0;
+}
+
+.games__category--title {
+    margin: 1.5rem 0;
+}
+
+@media screen and (max-width: 960px)  {
+    .games__container {
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 538px)  {
+    .games__container {
+        font-size: 1.1rem;
+    }
+}

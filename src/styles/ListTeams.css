@@ -12,7 +12,7 @@
 }
 
 .list__listTeams ul li{
-    width: 100%;
+    max-width: 100%;
     list-style: none;
     font-size: 1.8rem;
     font-weight: 300;
@@ -35,9 +35,15 @@
     border-radius: 0.3rem;
 }
 
-@media (max-width: 750px) {
+@media screen and (max-width: 768px)  {
     .list {
-        top: 31.8rem;
-        left: 3.0rem;
+        top: 6.5rem;
+        right: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 538px)  {
+    .list {
+        width: 5.0rem;
     }
 }

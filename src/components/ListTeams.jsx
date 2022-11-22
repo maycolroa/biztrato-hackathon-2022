@@ -182,7 +182,7 @@ const RegionCountries = ({ select }) => {
                     src={team.flag}
                     alt={team.name_en}
                   />
-                  {team.fifa_code}
+                  <span>{team.fifa_code}</span>
                 </button>
               </li>
             ))}

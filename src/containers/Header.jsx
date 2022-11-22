@@ -32,7 +32,7 @@ const Header = () => {
           src={team?.flag}
           alt={team?.code}
         />
-        {team?.code}
+        <span>{team?.code}</span>
       </button>
       {toggle && (
         <ListTeams

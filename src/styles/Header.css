@@ -20,8 +20,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 0.5rem;
-    width: 100px;
-    height: 40px; 
+    width: 10.0rem;
+    height: 4.0rem;
     font-weight: 600;
     font-size: 1.8rem;
     font-family: inherit;
@@ -35,4 +35,28 @@
 .header__container button img {
     width: 3.5rem;
     border-radius: 0.3rem;
+}
+
+@media screen and (max-width: 768px)  {
+    .header__container{
+        padding: 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 538px)  {
+    .header__container a img {
+        width: 10.0rem;
+     }
+     
+    .header__container img {
+         width: 9.0rem;
+     }
+
+    .header__button {
+        width: 5.0rem;
+    }
+
+    .header__container button span{
+        display: none;
+    }
 }

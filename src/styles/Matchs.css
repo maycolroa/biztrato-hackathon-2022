@@ -8,8 +8,8 @@
     height: 15.0rem;
     background-color:hsl(345,39%,43%);
     border-radius: 2.0rem;
-    font-size: 1.8rem;
     box-shadow: 0 0 3.8rem -1.3rem black;
+    font-size: 1.5rem;
 }
 .matchs__today,
 .matchs__tomorrow,
@@ -24,4 +24,27 @@
     margin-bottom: 0.6rem;
     text-align: center;
 }
- 
+
+@media screen and (max-width: 960px)  {
+    .matchs {
+        padding: 0 1.5rem;
+    }
+
+    .matchs__container {
+        grid-template-columns: 50% 50%;
+    }
+
+    .matchs__nextWeek {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 538px)  {
+    .matchs__container {
+        grid-template-columns: 100%;
+    }
+
+    .matchs__tomorrow {
+        display: none;
+    }
+}
